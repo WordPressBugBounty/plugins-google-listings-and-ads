@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Google for WooCommerce 3.6.1\n"
+"Project-Id-Version: Google for WooCommerce 3.6.2\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/google-listings-and-ads\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-03-31T19:26:15+00:00\n"
+"POT-Creation-Date: 2026-04-28T13:37:28+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.12.0\n"
 "X-Domain: google-listings-and-ads\n"
@@ -283,7 +283,7 @@ msgstr ""
 msgid "Account must be accepted before completing setup."
 msgstr ""
 
-#: src/Ads/AccountService.php:329
+#: src/Ads/AccountService.php:330
 msgid "Billing setup must be completed."
 msgstr ""
 
@@ -421,54 +421,54 @@ msgid "Error retrieving campaigns: %s"
 msgstr ""
 
 #. translators: %s Error message
-#: src/API/Google/AdsCampaign.php:214
+#: src/API/Google/AdsCampaign.php:225
 #, php-format
 msgid "Error retrieving campaigns missing EU political declaration: %s"
 msgstr ""
 
 #. translators: %s Error message
-#: src/API/Google/AdsCampaign.php:260
+#: src/API/Google/AdsCampaign.php:271
 #, php-format
 msgid "Error retrieving campaign: %s"
 msgstr ""
 
 #. translators: %s Error message
-#: src/API/Google/AdsCampaign.php:353
+#: src/API/Google/AdsCampaign.php:364
 #, php-format
 msgid "Error creating campaign: %s"
 msgstr ""
 
-#: src/API/Google/AdsCampaign.php:356
+#: src/API/Google/AdsCampaign.php:367
 msgid "A campaign with this name already exists"
 msgstr ""
 
 #. translators: %s Error message
-#: src/API/Google/AdsCampaign.php:417
+#: src/API/Google/AdsCampaign.php:428
 #, php-format
 msgid "Error editing campaign: %s"
 msgstr ""
 
 #. translators: %s Error message
-#: src/API/Google/AdsCampaign.php:461
+#: src/API/Google/AdsCampaign.php:472
 #, php-format
 msgid "Error updating EU political advertising flag: %s"
 msgstr ""
 
 #. translators: %s Error message
-#: src/API/Google/AdsCampaign.php:523
+#: src/API/Google/AdsCampaign.php:534
 #, php-format
 msgid "Error deleting campaign: %s"
 msgstr ""
 
-#: src/API/Google/AdsCampaign.php:526
+#: src/API/Google/AdsCampaign.php:537
 msgid "This campaign has already been deleted"
 msgstr ""
 
-#: src/API/Google/AdsCampaign.php:849
+#: src/API/Google/AdsCampaign.php:860
 msgid "Invalid campaign ID"
 msgstr ""
 
-#: src/API/Google/AdsCampaign.php:1084
+#: src/API/Google/AdsCampaign.php:1095
 msgid "Invalid geo target location ID"
 msgstr ""
 
@@ -573,85 +573,94 @@ msgstr ""
 msgid "Unable to retrieve report data."
 msgstr ""
 
-#: src/API/Google/Middleware.php:77
+#: src/API/Google/Middleware.php:76
 msgid "Error retrieving accounts"
 msgstr ""
 
-#: src/API/Google/Middleware.php:94
-#: src/API/Google/Middleware.php:312
+#: src/API/Google/Middleware.php:93
+#: src/API/Google/Middleware.php:311
 msgid "Unable to log accepted TOS"
 msgstr ""
 
-#: src/API/Google/Middleware.php:99
+#: src/API/Google/Middleware.php:98
 #: src/API/Google/SiteVerification.php:59
 #: src/MerchantCenter/AccountService.php:462
 msgid "Invalid site URL."
 msgstr ""
 
-#: src/API/Google/Middleware.php:164
-#: src/API/Google/Middleware.php:352
+#: src/API/Google/Middleware.php:163
+#: src/API/Google/Middleware.php:351
 msgid "Invalid response when creating account"
 msgstr ""
 
-#: src/API/Google/Middleware.php:167
-#: src/API/Google/Middleware.php:358
+#: src/API/Google/Middleware.php:166
+#: src/API/Google/Middleware.php:357
 msgid "Error creating account"
 msgstr ""
 
-#: src/API/Google/Middleware.php:235
+#: src/API/Google/Middleware.php:234
 msgid "Invalid response when linking merchant to MCA"
 msgstr ""
 
-#: src/API/Google/Middleware.php:241
+#: src/API/Google/Middleware.php:240
 msgid "Error linking merchant to MCA"
 msgstr ""
 
-#: src/API/Google/Middleware.php:280
+#: src/API/Google/Middleware.php:279
 msgid "Invalid response when claiming website"
 msgstr ""
 
-#: src/API/Google/Middleware.php:287
+#: src/API/Google/Middleware.php:286
 msgid "Error claiming website"
 msgstr ""
 
-#: src/API/Google/Middleware.php:306
+#: src/API/Google/Middleware.php:305
 msgid "Store country is not supported"
 msgstr ""
 
-#: src/API/Google/Middleware.php:402
+#: src/API/Google/Middleware.php:401
 msgid "Invalid response when linking account"
 msgstr ""
 
-#: src/API/Google/Middleware.php:408
+#: src/API/Google/Middleware.php:407
 msgid "Error linking account"
 msgstr ""
 
-#: src/API/Google/Middleware.php:569
+#: src/API/Google/Middleware.php:568
 msgid "Merchant ID must be set before updating in SDI."
 msgstr ""
 
-#: src/API/Google/Middleware.php:592
+#: src/API/Google/Middleware.php:591
 msgid "Invalid response when updating merchant account in Google Partner APP."
 msgstr ""
 
-#: src/API/Google/Middleware.php:600
+#: src/API/Google/Middleware.php:599
 msgid "Error updating merchant account in Google Partner APP."
 msgstr ""
 
-#: src/API/Google/Middleware.php:698
+#: src/API/Google/Middleware.php:697
 msgid "Invalid response authenticating partner app."
 msgstr ""
 
-#: src/API/Google/Middleware.php:708
+#: src/API/Google/Middleware.php:707
 msgid "Error authenticating Google Partner APP."
 msgstr ""
 
-#: src/API/Google/Middleware.php:743
+#: src/API/Google/Middleware.php:742
 msgid "Invalid response when fetching incentive credits."
 msgstr ""
 
-#: src/API/Google/Middleware.php:784
+#: src/API/Google/Middleware.php:783
 msgid "Error fetching incentive credits."
+msgstr ""
+
+#: src/API/Google/Middleware.php:804
+#: src/API/Google/Middleware.php:821
+msgid "Invalid response when retrieving MCA ID from WooCommerce Connect Server."
+msgstr ""
+
+#: src/API/Google/Middleware.php:831
+msgid "Error retrieving MCA ID from WooCommerce Connect Server"
 msgstr ""
 
 #: src/API/Google/Query/AdsQuery.php:81
