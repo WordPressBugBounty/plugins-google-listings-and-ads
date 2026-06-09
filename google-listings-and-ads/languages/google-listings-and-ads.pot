@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Google for WooCommerce 3.7.0\n"
+"Project-Id-Version: Google for WooCommerce 3.7.1\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/google-listings-and-ads\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-05-19T17:01:21+00:00\n"
+"POT-Creation-Date: 2026-06-09T16:51:35+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.13.0-alpha\n"
 "X-Domain: google-listings-and-ads\n"
@@ -17,7 +17,6 @@ msgstr ""
 #. Plugin Name of the plugin
 #: google-listings-and-ads.php:3
 #: src/Admin/ProductBlocksService.php:148
-#: src/Admin/SystemStatusService.php:62
 #: src/Internal/DependencyManagement/ThirdPartyServiceProvider.php:82
 #: src/Menu/Dashboard.php:53
 #: src/Menu/GetStarted.php:51
@@ -253,36 +252,23 @@ msgstr ""
 msgid "Product attributes"
 msgstr ""
 
-#: src/Admin/SystemStatusService.php:82
-#: src/Admin/SystemStatusService.php:98
-msgid "Sync Mode Status:"
-msgstr ""
-
-#: src/Admin/SystemStatusService.php:87
-msgid "Error retrieving sync mode configuration"
-msgstr ""
-
-#: src/Admin/SystemStatusService.php:103
-msgid "No sync mode configuration found"
-msgstr ""
-
 #. translators: 1: is a numeric account ID
-#: src/Ads/AccountService.php:109
+#: src/Ads/AccountService.php:110
 #, php-format
 msgid "Ads account %1$d already connected."
 msgstr ""
 
 #. translators: 1: is a string representing an unknown step name
-#: src/Ads/AccountService.php:186
+#: src/Ads/AccountService.php:187
 #, php-format
 msgid "Unknown ads account creation step %1$s"
 msgstr ""
 
-#: src/Ads/AccountService.php:250
+#: src/Ads/AccountService.php:271
 msgid "Account must be accepted before completing setup."
 msgstr ""
 
-#: src/Ads/AccountService.php:332
+#: src/Ads/AccountService.php:353
 msgid "Billing setup must be completed."
 msgstr ""
 
@@ -298,13 +284,13 @@ msgid "Unable to generate text assets: %s"
 msgstr ""
 
 #. translators: %s Error message
-#: src/Ads/AdsAssetGenerationService.php:212
+#: src/Ads/AdsAssetGenerationService.php:209
 #, php-format
 msgid "Unable to generate image assets: %s"
 msgstr ""
 
 #: src/Ads/AdsRecommendationsService.php:253
-#: src/API/Google/BudgetRecommendations.php:165
+#: src/API/Google/BudgetRecommendations.php:174
 #: js/build/commons.js:65
 #: js/build/price-benchmark.js:1
 msgid "Low"
@@ -316,7 +302,7 @@ msgid "Current"
 msgstr ""
 
 #: src/Ads/AdsRecommendationsService.php:258
-#: src/API/Google/BudgetRecommendations.php:159
+#: src/API/Google/BudgetRecommendations.php:168
 #: src/API/Site/Controllers/Ads/BudgetRecommendationController.php:200
 #: js/build/commons.js:4
 #: js/build/commons.js:65
@@ -324,7 +310,7 @@ msgid "Recommended"
 msgstr ""
 
 #: src/Ads/AdsRecommendationsService.php:260
-#: src/API/Google/BudgetRecommendations.php:162
+#: src/API/Google/BudgetRecommendations.php:171
 #: js/build/commons.js:65
 #: js/build/price-benchmark.js:1
 msgid "High"
@@ -578,93 +564,98 @@ msgstr ""
 msgid "Unable to retrieve report data."
 msgstr ""
 
-#: src/API/Google/Middleware.php:76
+#: src/API/Google/Middleware.php:78
 msgid "Error retrieving accounts"
 msgstr ""
 
-#: src/API/Google/Middleware.php:93
-#: src/API/Google/Middleware.php:311
+#: src/API/Google/Middleware.php:95
+#: src/API/Google/Middleware.php:330
 msgid "Unable to log accepted TOS"
 msgstr ""
 
-#: src/API/Google/Middleware.php:98
+#: src/API/Google/Middleware.php:100
 #: src/API/Google/SiteVerification.php:59
-#: src/MerchantCenter/AccountService.php:465
+#: src/MerchantCenter/AccountService.php:467
 msgid "Invalid site URL."
 msgstr ""
 
-#: src/API/Google/Middleware.php:163
-#: src/API/Google/Middleware.php:351
+#: src/API/Google/Middleware.php:165
+#: src/API/Google/Middleware.php:370
 msgid "Invalid response when creating account"
 msgstr ""
 
-#: src/API/Google/Middleware.php:166
-#: src/API/Google/Middleware.php:357
+#: src/API/Google/Middleware.php:168
+#: src/API/Google/Middleware.php:376
 msgid "Error creating account"
 msgstr ""
 
-#: src/API/Google/Middleware.php:234
+#: src/API/Google/Middleware.php:238
 msgid "Invalid response when linking merchant to MCA"
 msgstr ""
 
-#: src/API/Google/Middleware.php:240
+#: src/API/Google/Middleware.php:242
 msgid "Error linking merchant to MCA"
 msgstr ""
 
-#: src/API/Google/Middleware.php:279
+#: src/API/Google/Middleware.php:281
 msgid "Invalid response when claiming website"
 msgstr ""
 
-#: src/API/Google/Middleware.php:286
+#: src/API/Google/Middleware.php:292
+#: src/API/Google/Middleware.php:305
 msgid "Error claiming website"
 msgstr ""
 
-#: src/API/Google/Middleware.php:305
+#: src/API/Google/Middleware.php:324
 msgid "Store country is not supported"
 msgstr ""
 
-#: src/API/Google/Middleware.php:401
+#: src/API/Google/Middleware.php:420
 msgid "Invalid response when linking account"
 msgstr ""
 
-#: src/API/Google/Middleware.php:407
+#: src/API/Google/Middleware.php:429
+msgid "Error linking ads account"
+msgstr ""
+
+#: src/API/Google/Middleware.php:440
 msgid "Error linking account"
 msgstr ""
 
-#: src/API/Google/Middleware.php:568
+#: src/API/Google/Middleware.php:601
 msgid "Merchant ID must be set before updating in SDI."
 msgstr ""
 
-#: src/API/Google/Middleware.php:591
+#: src/API/Google/Middleware.php:624
 msgid "Invalid response when updating merchant account in Google Partner APP."
 msgstr ""
 
-#: src/API/Google/Middleware.php:599
+#: src/API/Google/Middleware.php:632
 msgid "Error updating merchant account in Google Partner APP."
 msgstr ""
 
-#: src/API/Google/Middleware.php:697
+#: src/API/Google/Middleware.php:729
 msgid "Invalid response authenticating partner app."
 msgstr ""
 
-#: src/API/Google/Middleware.php:707
+#: src/API/Google/Middleware.php:739
 msgid "Error authenticating Google Partner APP."
 msgstr ""
 
-#: src/API/Google/Middleware.php:742
+#: src/API/Google/Middleware.php:774
 msgid "Invalid response when fetching incentive credits."
 msgstr ""
 
-#: src/API/Google/Middleware.php:783
+#: src/API/Google/Middleware.php:815
 msgid "Error fetching incentive credits."
 msgstr ""
 
-#: src/API/Google/Middleware.php:804
-#: src/API/Google/Middleware.php:821
+#: src/API/Google/Middleware.php:836
+#: src/API/Google/Middleware.php:853
 msgid "Invalid response when retrieving MCA ID from WooCommerce Connect Server."
 msgstr ""
 
-#: src/API/Google/Middleware.php:831
+#: src/API/Google/Middleware.php:863
 msgid "Error retrieving MCA ID from WooCommerce Connect Server"
 msgstr ""
 
@@ -684,18 +675,18 @@ msgstr ""
 msgid "Unable to insert site verification: %s"
 msgstr ""
 
-#: src/API/Site/Controllers/Ads/AccountController.php:160
+#: src/API/Site/Controllers/Ads/AccountController.php:161
 #: src/API/Site/Controllers/Google/AccountController.php:154
 #: src/API/Site/Controllers/Jetpack/AccountController.php:174
 #: src/API/Site/Controllers/YouTube/AccountController.php:120
 msgid "Successfully disconnected."
 msgstr ""
 
-#: src/API/Site/Controllers/Ads/AccountController.php:200
+#: src/API/Site/Controllers/Ads/AccountController.php:201
 msgid "Google Ads Account ID."
 msgstr ""
 
-#: src/API/Site/Controllers/Ads/AccountController.php:207
+#: src/API/Site/Controllers/Ads/AccountController.php:208
 msgid "Billing Flow URL."
 msgstr ""
 
@@ -776,7 +767,7 @@ msgstr ""
 
 #: src/API/Site/Controllers/Ads/AssetGroupController.php:226
 #: src/API/Site/Controllers/Ads/CampaignController.php:479
-#: js/build/commons.js:90
+#: js/build/commons.js:127
 msgid "Final URL"
 msgstr ""
 
@@ -1266,23 +1257,23 @@ msgstr ""
 msgid "The URL for making a connection to Jetpack (wordpress.com)."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/AccountController.php:212
+#: src/API/Site/Controllers/MerchantCenter/AccountController.php:229
 msgid "Merchant Center account successfully disconnected."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/AccountController.php:226
+#: src/API/Site/Controllers/MerchantCenter/AccountController.php:243
 msgid "Merchant Center Account ID."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/AccountController.php:233
+#: src/API/Site/Controllers/MerchantCenter/AccountController.php:250
 msgid "Is a MCA sub account."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/AccountController.php:239
+#: src/API/Site/Controllers/MerchantCenter/AccountController.php:256
 msgid "The Merchant Center Account name."
 msgstr ""
 
-#: src/API/Site/Controllers/MerchantCenter/AccountController.php:245
+#: src/API/Site/Controllers/MerchantCenter/AccountController.php:262
 msgid "The domain registered with the Merchant Center Account."
 msgstr ""
 
@@ -1929,17 +1920,13 @@ msgstr ""
 msgid "Your installation of Google for WooCommerce is incomplete. If you installed from GitHub, %1$splease refer to this document%2$s to set up your development environment."
 msgstr ""
 
-#: src/Coupon/CouponSyncer.php:473
-#: src/Product/ProductSyncer.php:363
+#: src/Coupon/CouponSyncer.php:472
+#: src/Product/ProductSyncer.php:362
 msgid "Google Merchant Center has not been set up correctly. Please review your configuration."
 msgstr ""
 
-#: src/Coupon/CouponSyncer.php:488
+#: src/Coupon/CouponSyncer.php:487
 msgid "Pushing coupons will not run if the store is not ready for syncing."
-msgstr ""
-
-#: src/Coupon/CouponSyncer.php:503
-msgid "Pushing Coupons will not run if the PUSH Sync functionality has been disabled."
 msgstr ""
 
 #: src/Exception/AccountReconnect.php:27
@@ -2094,53 +2081,53 @@ msgstr ""
 msgid "Shipping"
 msgstr ""
 
-#: src/MerchantCenter/AccountService.php:187
+#: src/MerchantCenter/AccountService.php:193
 msgid "Attempting invalid URL switch."
 msgstr ""
 
-#: src/MerchantCenter/AccountService.php:210
+#: src/MerchantCenter/AccountService.php:216
 msgid "Attempting invalid claim overwrite."
 msgstr ""
 
 #. translators: 1: is a string representing an unknown step name
-#: src/MerchantCenter/AccountService.php:380
+#: src/MerchantCenter/AccountService.php:382
 #, php-format
 msgid "Unknown merchant account creation step %1$s"
 msgstr ""
 
-#: src/MerchantCenter/AccountService.php:412
+#: src/MerchantCenter/AccountService.php:414
 msgid "Unable to claim website URL with this Merchant Center Account."
 msgstr ""
 
 #. translators: 1: is a numeric account ID
-#: src/MerchantCenter/AccountService.php:444
+#: src/MerchantCenter/AccountService.php:446
 #, php-format
 msgid "Merchant Center account already connected: %d"
 msgstr ""
 
 #. translators: 1: is a website URL (without the protocol)
-#: src/MerchantCenter/AccountService.php:492
+#: src/MerchantCenter/AccountService.php:494
 #, php-format
 msgid "This Merchant Center account already has a verified and claimed URL, %1$s"
 msgstr ""
 
-#: src/MerchantCenter/AccountService.php:583
+#: src/MerchantCenter/AccountService.php:609
 msgid "No stored nonce found in the database, skip updating auth status."
 msgstr ""
 
-#: src/MerchantCenter/AccountService.php:589
+#: src/MerchantCenter/AccountService.php:615
 msgid "Nonce is not provided, skip updating auth status."
 msgstr ""
 
-#: src/MerchantCenter/AccountService.php:596
+#: src/MerchantCenter/AccountService.php:622
 msgid "Nonces mismatch, skip updating auth status."
 msgstr ""
 
-#: src/MerchantCenter/MerchantCenterService.php:307
+#: src/MerchantCenter/MerchantCenterService.php:288
 msgid "No contact information."
 msgstr ""
 
-#: src/MerchantCenter/MerchantCenterService.php:308
+#: src/MerchantCenter/MerchantCenterService.php:289
 msgid "Add store contact information"
 msgstr ""
 
@@ -2475,12 +2462,8 @@ msgstr ""
 msgid "Size Type"
 msgstr ""
 
-#: src/Product/ProductSyncer.php:374
+#: src/Product/ProductSyncer.php:373
 msgid "Pushing products will not run if the store is not ready for syncing."
-msgstr ""
-
-#: src/Product/ProductSyncer.php:389
-msgid "Pushing products will not run if the PUSH Sync functionality has been disabled."
 msgstr ""
 
 #. translators: %1 is the shipping rate, %2 is the currency (e.g. USD)
@@ -2890,7 +2873,7 @@ msgstr ""
 
 #: js/build/channel-visibility-google-ads-promo.js:1
 #: js/build/commons.js:1
-#: js/build/commons.js:90
+#: js/build/commons.js:127
 #: js/build/dashboard.js:7
 #: js/build/google-ads-promo.js:1
 #: js/build/product-feed.js:19
@@ -2898,7 +2881,7 @@ msgid "Google Logo"
 msgstr ""
 
 #: js/build/channel-visibility-google-ads-promo.js:1
-#: js/build/commons.js:90
+#: js/build/commons.js:127
 msgid "Google"
 msgstr ""
 
@@ -2916,11 +2899,7 @@ msgid "Sync your products to reach customers when they’re searching for produc
 msgstr ""
 
 #: js/build/commons.js:1
-msgid "Error creating account: Account creation limit reached. Contact support for help."
-msgstr ""
-
-#: js/build/commons.js:1
-msgid "Unable to create Google Ads account. Please try again later."
+msgid "Google Ads Creation Failed"
 msgstr ""
 
 #: js/build/commons.js:1
@@ -3020,7 +2999,6 @@ msgid "Connecting…"
 msgstr ""
 
 #: js/build/commons.js:1
-#: js/build/commons.js:38
 msgid "Unable to connect your Google Ads account. Please try again later."
 msgstr ""
 
@@ -3092,7 +3070,7 @@ msgid "Google Shopping Logo"
 msgstr ""
 
 #: js/build/commons.js:1
-#: js/build/commons.js:90
+#: js/build/commons.js:127
 msgid "YouTube Logo"
 msgstr ""
 
@@ -3151,19 +3129,15 @@ msgid "Category ID %s (deleted)"
 msgstr ""
 
 #: js/build/commons.js:4
-msgid "Campaign changes are paused for this Google Ads account"
-msgstr ""
-
-#: js/build/commons.js:4
 msgid "To comply with EU political ads rules, you can’t create or edit campaigns in this account until the required declarations are added."
 msgstr ""
 
 #: js/build/commons.js:4
-msgid "Some campaigns are missing European Union (EU) ads status"
+msgid "You can't edit your campaigns until you complete the EU political ads declaration in Google Ads."
 msgstr ""
 
 #: js/build/commons.js:4
-msgid "Changes to any campaigns in this account are not allowed because EU political ads declarations are missing."
+msgid "Missing EU ads declaration"
 msgstr ""
 
 #: js/build/commons.js:4
@@ -3648,6 +3622,12 @@ msgid "Required to set up conversion measurement for your store."
 msgstr ""
 
 #: js/build/commons.js:38
+#: js/build/commons.js:44
+#: js/build/commons.js:87
+msgid "Connection Failed"
+msgstr ""
+
+#: js/build/commons.js:38
 msgid "Creating a new Google Ads account"
 msgstr ""
 
@@ -3706,7 +3686,8 @@ msgid "Required to sync products so they show on Google."
 msgstr ""
 
 #: js/build/commons.js:44
-msgid "Unable to create Merchant Center account. Please try again later."
+#: js/build/commons.js:87
+msgid "Unable to connect your Google Merchant Center account. Please check your connection and try again."
 msgstr ""
 
 #: js/build/commons.js:44
@@ -4201,6 +4182,11 @@ msgctxt "The spacing between sentences. It's a space in English. Please use an e
 msgid " "
 msgstr ""
 
+#: js/build/commons.js:65
+#: js/build/index.js:19
+msgid "Unknown Error"
+msgstr ""
+
 #. translators: %s: The campaign name with budget recommendation.
 #: js/build/commons.js:68
 #, js-format
@@ -4591,14 +4577,6 @@ msgid "Or, create a new Merchant Center account"
 msgstr ""
 
 #: js/build/commons.js:87
-msgid "Unable to connect your Google Merchant Center account. Please check your connection and try again."
-msgstr ""
-
-#: js/build/commons.js:87
-msgid "Unable to connect Merchant Center account. Please try again later."
-msgstr ""
-
-#: js/build/commons.js:87
 msgid "Connect to existing Merchant Center account"
 msgstr ""
 
@@ -4611,46 +4589,15 @@ msgid "Apply in Google Ads"
 msgstr ""
 
 #: js/build/commons.js:90
-msgid "Google Merchant Center Logo"
+msgid "An unknown error occurred."
 msgstr ""
 
 #: js/build/commons.js:90
-msgid "Google Ads Logo"
+msgid "An unrecognised error response was received."
 msgstr ""
 
 #: js/build/commons.js:90
-msgid "WordPress.com Logo"
-msgstr ""
-
-#: js/build/commons.js:90
-msgid "Final URL icon"
-msgstr ""
-
-#: js/build/commons.js:90
-#: js/build/reports.js:1
-msgid "Google Merchant Center"
-msgstr ""
-
-#: js/build/commons.js:90
-msgid "Required to sync products and list on Google."
-msgstr ""
-
-#: js/build/commons.js:90
-#: js/build/dashboard.js:1
-msgid "Google Ads"
-msgstr ""
-
-#: js/build/commons.js:90
-msgid "Required to set up conversion measurement and create campaigns."
-msgstr ""
-
-#: js/build/commons.js:90
-#: js/build/settings.js:1
-msgid "Store address"
-msgstr ""
-
-#: js/build/commons.js:90
-msgid "YouTube"
+msgid "Error parsing response."
 msgstr ""
 
 #: js/build/commons.js:90
@@ -5272,6 +5219,49 @@ msgstr ""
 #: js/build/commons.js:127
 #: js/build/shipping.js:1
 msgid "Save changes"
+msgstr ""
+
+#: js/build/commons.js:127
+msgid "Google Merchant Center Logo"
+msgstr ""
+
+#: js/build/commons.js:127
+msgid "Google Ads Logo"
+msgstr ""
+
+#: js/build/commons.js:127
+msgid "WordPress.com Logo"
+msgstr ""
+
+#: js/build/commons.js:127
+msgid "Final URL icon"
+msgstr ""
+
+#: js/build/commons.js:127
+#: js/build/reports.js:1
+msgid "Google Merchant Center"
+msgstr ""
+
+#: js/build/commons.js:127
+msgid "Required to sync products and list on Google."
+msgstr ""
+
+#: js/build/commons.js:127
+#: js/build/dashboard.js:1
+msgid "Google Ads"
+msgstr ""
+
+#: js/build/commons.js:127
+msgid "Required to set up conversion measurement and create campaigns."
+msgstr ""
+
+#: js/build/commons.js:127
+#: js/build/settings.js:1
+msgid "Store address"
+msgstr ""
+
+#: js/build/commons.js:127
+msgid "YouTube"
 msgstr ""
 
 #: js/build/commons.js:127
