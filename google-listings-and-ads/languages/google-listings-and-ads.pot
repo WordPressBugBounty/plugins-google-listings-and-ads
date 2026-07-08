@@ -2,14 +2,14 @@
 # This file is distributed under the GPLv3.
 msgid ""
 msgstr ""
-"Project-Id-Version: Google for WooCommerce 3.7.2\n"
+"Project-Id-Version: Google for WooCommerce 3.7.3\n"
 "Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/google-listings-and-ads\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"POT-Creation-Date: 2026-06-30T13:14:17+00:00\n"
+"POT-Creation-Date: 2026-07-08T16:35:21+00:00\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "X-Generator: WP-CLI 2.13.0-alpha\n"
 "X-Domain: google-listings-and-ads\n"
@@ -97,6 +97,20 @@ msgstr ""
 #: src/Admin/Input/SelectWithTextInput.php:106
 #: src/Admin/Input/SelectWithTextInput.php:165
 msgid "Enter a custom value"
+msgstr ""
+
+#. translators: 1: opening strong tag 2: closing strong tag 3: opening strong tag 4: closing strong tag
+#: src/Admin/MerchantApiMigrationNotice.php:152
+#, php-format
+msgid "%1$sCritical Update:%2$s Your Google for WooCommerce connection will stop working after %3$sAugust 18, 2026%4$s due to mandatory Google API changes. Update your plugin today to keep your product sync and ads running smoothly."
+msgstr ""
+
+#: src/Admin/MerchantApiMigrationNotice.php:163
+msgid "Update Plugin Now"
+msgstr ""
+
+#: src/Admin/MerchantApiMigrationNotice.php:165
+msgid "Read Migration Details"
 msgstr ""
 
 #: src/Admin/MetaBox/ChannelVisibilityMetaBox.php:98

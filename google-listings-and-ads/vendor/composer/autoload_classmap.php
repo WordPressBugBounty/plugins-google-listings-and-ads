@@ -156,6 +156,7 @@ return array(
     'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Input\\Select' => $baseDir . '/src/Admin/Input/Select.php',
     'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Input\\SelectWithTextInput' => $baseDir . '/src/Admin/Input/SelectWithTextInput.php',
     'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Input\\Text' => $baseDir . '/src/Admin/Input/Text.php',
+    'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\MerchantApiMigrationNotice' => $baseDir . '/src/Admin/MerchantApiMigrationNotice.php',
     'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\MetaBox\\AbstractMetaBox' => $baseDir . '/src/Admin/MetaBox/AbstractMetaBox.php',
     'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\MetaBox\\ChannelVisibilityMetaBox' => $baseDir . '/src/Admin/MetaBox/ChannelVisibilityMetaBox.php',
     'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\MetaBox\\CouponChannelVisibilityMetaBox' => $baseDir . '/src/Admin/MetaBox/CouponChannelVisibilityMetaBox.php',

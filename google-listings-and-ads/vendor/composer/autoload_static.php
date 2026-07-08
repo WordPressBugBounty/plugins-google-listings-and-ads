@@ -442,6 +442,7 @@ class ComposerStaticInit0a5accc3a1824ef9938d59b6f22070fb
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Input\\Select' => __DIR__ . '/../..' . '/src/Admin/Input/Select.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Input\\SelectWithTextInput' => __DIR__ . '/../..' . '/src/Admin/Input/SelectWithTextInput.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\Input\\Text' => __DIR__ . '/../..' . '/src/Admin/Input/Text.php',
+        'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\MerchantApiMigrationNotice' => __DIR__ . '/../..' . '/src/Admin/MerchantApiMigrationNotice.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\MetaBox\\AbstractMetaBox' => __DIR__ . '/../..' . '/src/Admin/MetaBox/AbstractMetaBox.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\MetaBox\\ChannelVisibilityMetaBox' => __DIR__ . '/../..' . '/src/Admin/MetaBox/ChannelVisibilityMetaBox.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\Admin\\MetaBox\\CouponChannelVisibilityMetaBox' => __DIR__ . '/../..' . '/src/Admin/MetaBox/CouponChannelVisibilityMetaBox.php',
