@@ -243,6 +243,7 @@ return array(
     'Automattic\\WooCommerce\\GoogleListingsAndAds\\DB\\Migration\\Migration20231109T1653383133' => $baseDir . '/src/DB/Migration/Migration20231109T1653383133.php',
     'Automattic\\WooCommerce\\GoogleListingsAndAds\\DB\\Migration\\Migration20240813T1653383133' => $baseDir . '/src/DB/Migration/Migration20240813T1653383133.php',
     'Automattic\\WooCommerce\\GoogleListingsAndAds\\DB\\Migration\\Migration20250910T1653383133' => $baseDir . '/src/DB/Migration/Migration20250910T1653383133.php',
+    'Automattic\\WooCommerce\\GoogleListingsAndAds\\DB\\Migration\\Migration20260813T1653383133' => $baseDir . '/src/DB/Migration/Migration20260813T1653383133.php',
     'Automattic\\WooCommerce\\GoogleListingsAndAds\\DB\\Migration\\MigrationInterface' => $baseDir . '/src/DB/Migration/MigrationInterface.php',
     'Automattic\\WooCommerce\\GoogleListingsAndAds\\DB\\Migration\\MigrationVersion141' => $baseDir . '/src/DB/Migration/MigrationVersion141.php',
     'Automattic\\WooCommerce\\GoogleListingsAndAds\\DB\\Migration\\Migrator' => $baseDir . '/src/DB/Migration/Migrator.php',
