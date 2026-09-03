@@ -314,6 +314,7 @@ class ComposerStaticInit0a5accc3a1824ef9938d59b6f22070fb
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\CampaignType' => __DIR__ . '/../..' . '/src/API/Google/CampaignType.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\Connection' => __DIR__ . '/../..' . '/src/API/Google/Connection.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\ExceptionTrait' => __DIR__ . '/../..' . '/src/API/Google/ExceptionTrait.php',
+        'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\JetpackAuthCircuitBreaker' => __DIR__ . '/../..' . '/src/API/Google/JetpackAuthCircuitBreaker.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\LocationIDTrait' => __DIR__ . '/../..' . '/src/API/Google/LocationIDTrait.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\Mapi\\MapiPaths' => __DIR__ . '/../..' . '/src/API/Google/Mapi/MapiPaths.php',
         'Automattic\\WooCommerce\\GoogleListingsAndAds\\API\\Google\\Mapi\\MerchantApiClient' => __DIR__ . '/../..' . '/src/API/Google/Mapi/MerchantApiClient.php',
